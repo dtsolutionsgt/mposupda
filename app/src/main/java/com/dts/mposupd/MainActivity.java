@@ -216,8 +216,6 @@ public class MainActivity extends Activity {
             String fileExtension = MimeTypeMap.getFileExtensionFromUrl(uri.toString());
             mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(fileExtension.toLowerCase());
         }
-
-
         return mimeType;
     }
 
